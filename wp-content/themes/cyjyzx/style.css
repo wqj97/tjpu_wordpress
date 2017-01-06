@@ -1,0 +1,288 @@
+/*
+Theme Name: 天津工业大学创业就业中心
+Theme URI: http://www.97qingnian.com
+Description: 天津工业大学创业就业中心--天津蓝缘信息科技
+Version: 1.0.0
+Author: 天津工业大学创业就业中心
+Author URI: http://www.97qingnian.com
+Tags: 天津工业大学创业就业中心,天津蓝缘信息科技
+*/
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    z-index: 999;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 58px;
+    list-style-type: none;
+}
+
+header li {
+    margin: 0 15px;
+    float: left;
+}
+
+
+
+header a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: #111;
+}
+
+.banner {
+    background: url("img/bgi.jpg") no-repeat;
+    background-size: cover;
+    height: 398px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: white;
+    font-family: 微软雅黑;
+}
+
+.banner button {
+    margin-top: 50px;
+    display: inline-block;
+    outline: none;
+    width: 188px;
+    height: 44px;
+    line-height: 44px;
+    border: none;
+    color: #fff;
+    background: #59CAC2;
+    font-size: 18px;
+    border-radius: 24px;
+    box-shadow: -2px -2px 5px rgba(89, 202, 194, .3), 2px 2px 5px rgba(89, 202, 194, .3);
+    font-weight: 300;
+}
+
+.index{
+    margin-top: -60px;
+}
+
+.list-card {
+    background: #fff;
+    padding: 40px 10px;
+}
+.index > div img:hover{
+    transform: scale(1.1);
+}
+
+.index > div > div {
+    border-right: 1px solid #EDEDED;
+}
+
+.list-card > div:last-child{
+    border-right: none;
+}
+
+.index > div ul{
+    list-style-type: none;
+}
+
+.index-title{
+    border-left: 3px #59CAC2 solid;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.index-text-tittle{
+    margin-top: 30px;
+
+}
+
+.index-text-tittle a{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    color: #000;
+    transition: all .5s ease;
+}
+
+.index-text-tittle a:hover {
+    text-decoration: none;
+    color: #59CAC2;
+}
+
+.tittle-view a{
+    display: block;
+    width: 55px;
+    font-family: 微软雅黑;
+    font-size:5px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.tittle-view a:hover {
+    text-decoration: none;
+    color: #59CAC2;
+    transition: all .5s ease;
+}
+
+.index-more{
+    display: inline-block;
+    width: 47px;
+    height: 18px;
+    line-height: 16px;
+    border: 1px #BEBEBE solid;
+    border-radius: 10px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: arial,Verdana;
+    background: #fff;
+    padding: 0;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.index-more:hover{
+    text-decoration: none;
+    color: white;
+    background: #59CAC2;
+    border: 1px #59CAC2 solid;
+}
+
+.index-text-image img{
+    transition: all .5s ease;
+    width:100%;
+}
+
+.index-text-image a{
+    display: block;
+    width:100%;
+    overflow: hidden;
+}
+
+.index-text-image {
+    width:100%;
+    height: 185px;
+    overflow: hidden;
+}
+
+.li-img{
+    width:300px;
+    height: 165px;
+    overflow: hidden;
+    font-size: 2px;
+}
+
+.li-img img{
+    transition: all .5s ease;
+    width:100%;
+}
+
+.li-img a{
+    display: block;
+    width:100%;
+    overflow: hidden;
+}
+
+.list-news li{
+    padding: 35px 0px;
+    border-bottom: 1px solid #EDEDED;
+    height:250px;
+}
+
+.list-news li:last-child{
+    border-bottom: none;
+}
+
+.list-news{
+    padding: 25px 70px;
+    background-color: white;
+}
+
+.list-news button{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: 10px;
+    padding:0 6px 6px 6px;
+    top: 15px;
+    left: 10px;
+    background: url(img/sub.png) 0 0 no-repeat;
+    color: #fff;
+    vertical-align: top;
+}
+
+.li-text-tittle{
+    font-size: 20px;
+    font-weight: 400;
+    font-family:微软雅黑;
+    white-space: nowrap;
+}
+.li-text-tittle a{
+    text-decoration: none;
+    color: #000000;
+    transition:all .3s ease;
+}
+
+.li-text-tittle a:hover {
+    text-decoration: none;
+    color: #59CAC2;
+}
+
+.li-text-summary{
+    font-family:微软雅黑;
+    font-size:15px;
+    color:#666666 ;
+    margin: 30px 0 30px;
+}
+
+.li-text-author{
+    font-family: 微软雅黑;
+    font-size: 13px;
+    color: #A599A5;
+}
+
+.load-more{
+    display: block;
+    line-height: 60px;
+    border: 1px #F0F0F0 solid;
+    text-align: center;
+    color: #bbb;
+    font-size: 16px;
+    transition:all .3s ease;
+}
+.load-more a{
+    text-decoration: none;
+    color: #FAFAFA;
+
+}
+.load-more:hover{
+    color: #59CAC2;
+    background-color: #FAFAFA;
+
+}
+
+.modal-footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.inner{
+    text-align: center;
+    color: #FAFAFA;
+}
