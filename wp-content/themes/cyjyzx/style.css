@@ -164,7 +164,8 @@ header a {
 
 .index-text-image img{
     transition: all .5s ease;
-    width:100%;
+    width:100% !important;
+    height:unset;
 }
 
 .index-text-image a{
