@@ -43,4 +43,4 @@ WordPress是对Michel V.创建的[b2/cafélog](http://cafelog.com/)的官方后�
 
 # 许可证
 
-WordPress基于<abbr title="GNU通用公共许可证">GPL</abbr>第二版或（根据您选择的）以后版本发布。详见[license.txt](license)（英文）。
+WordPress基于<abbr title="GNU通用公共许可证">GPL</abbr>第二版或（根据您选择的）以后版本发布。详见[license](license)（英文）。

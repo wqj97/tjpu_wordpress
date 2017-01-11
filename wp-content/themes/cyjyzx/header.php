@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有文章" href="<?php echo get_bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有评论" href="<?php bloginfo('comments_rss2_url'); ?>" />
     <link rel="author" content="天津蓝缘信息科技">
@@ -32,17 +33,24 @@
 <body style="padding-top:100px;background: #F5F7F9">
 
 <header>
-    <ul>
+    <ul style="width:100%;position:relative;">
         <a href="">
-            <li><img src="<?php bloginfo('template_url'); ?>/img/logo.jpg" alt=""></li>
+            <li><img src="/favicon.ico" alt="" width="75px"></li>
         </a>
         <li <?php if (is_home()) { echo 'class="current"';} ?>><a title="<?php bloginfo('name'); ?>"  href="<?php echo get_option('home'); ?>/">主页</a></li>
-<!--        --><?php //wp_list_cats("sort_column=ID&hide_empty=0&optioncount=1");?>
         <?
         foreach (get_categories() as $key => $val){
 //            print_r($val);
             echo "<li><a href='category/".$val->category_nicename."'>".$val->name."</a></li>";
         }
         ?>
+        <div style="position:absolute;right:0px;">
+            <li class="">
+                <?wp_loginout();?>
+            </li>
+            <li class="">
+                <?wp_register();?>
+            </li>
+        </div>
     </ul>
 </header>

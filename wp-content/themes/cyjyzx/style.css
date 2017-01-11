@@ -189,6 +189,7 @@ header a {
 .li-img img{
     transition: all .5s ease;
     width:100%;
+    height:unset;
 }
 
 .li-img a{
@@ -225,6 +226,9 @@ header a {
     vertical-align: top;
 }
 
+.list-news p {
+    height:62px;
+}
 .li-text-tittle{
     font-size: 20px;
     font-weight: 400;
