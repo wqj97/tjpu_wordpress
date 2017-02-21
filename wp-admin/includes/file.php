@@ -1294,7 +1294,3 @@ function wp_print_request_filesystem_credentials_modal() {
 	</div>
 	<?php
 }
-
-if ( function_exists( 'add_theme_support' ) ) {
-    add_theme_support( 'post-thumbnails' );
-}

@@ -20,10 +20,10 @@
         } else {
             wp_title('',true);
         } ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="./favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有文章" href="<?php echo get_bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有评论" href="<?php bloginfo('comments_rss2_url'); ?>" />
     <link rel="author" content="天津蓝缘信息科技">
@@ -35,7 +35,7 @@
 <header>
     <ul style="width:100%;position:relative;">
         <a href="">
-            <li><img src="/favicon.ico" alt="" width="75px"></li>
+            <li><img src="./favicon.ico" alt="" width="75px"></li>
         </a>
         <li <?php if (is_home()) { echo 'class="current"';} ?>><a title="<?php bloginfo('name'); ?>"  href="<?php echo get_option('home'); ?>/">主页</a></li>
         <?

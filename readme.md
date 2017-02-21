@@ -1,7 +1,7 @@
 # 天津工业大学创业就业中心官方网站
 # [![WordPress](wp-admin/images/wordpress-logo.png)](https://wordpress.org/)
 ## V1.0
-基于wordpress4.7
+基于wordpress4.7.2
 
 优美的个人信息发布平台
 
@@ -17,17 +17,6 @@
 *   启用[mod_rewrite](http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html)这一Apache模块。
 *   [HTTPS](https://wordpress.org/news/2016/12/moving-toward-ssl/)支持。
 
-
-# 安装：著名的五分钟安装
-
-1.  将WordPress压缩包解压至一个空文件夹，并上传它。
-2.  在浏览器中访问<span class="file">[wp-admin/install.php](wp-admin/install.php)</span>。它将帮助您把数据库连接信息写入到`wp-config.php`文件中。
-1.  如果上述方法无效，也没关系，这很正常。请用文本编辑器（如写字板）手动打开`wp-config-sample.php`文件，填入数据库信息。
-2.  将文件另存为`wp-config.php`并上传。
-3.  在浏览器中访问<span class="file">[wp-admin/install.php](wp-admin/install.php)</span>。
-3.  在配置文件就绪之后，WordPress会自动尝试建立数据库表。若发生错误，请检查`wp-config.php`文件中填写的信息是否准确，然后再试。若问题依然存在，请访问[中文支持论坛](http://zh-cn.forums.wordpress.org/ "WordPress支持论坛")寻求帮助。
-4.  **若您不设置密码，请牢记生成的随机密码。**若您不输入用户名，用户名将是`admin`。
-5.  完成后，安装向导会带您到[登录页面](wp-login.php)。用刚刚设置的用户名和密码登录。若您使用随机密码，在登录后可以按照页面提示修改密码。
 
 
 # 最后

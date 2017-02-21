@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf04bc0a-d046-49b5-9875-9029fe39c932" name="创业就业中心" url="http://xs.97qingnian.com">
+        <fileTransfer host="123.206.71.121" port="21" rootFolder="/xs.97qingnian.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
